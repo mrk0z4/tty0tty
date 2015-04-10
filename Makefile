@@ -12,7 +12,7 @@ clean:
 install:
 	install -m 755 -p pts/tty0tty $(DESTDIR)/usr/bin
 	
-buildeb:
+builddeb:
 	cd ..
 	tar zcf $(PROJECT)_$(VERSION).orig.tar.gz tty0tty
 	cd tty0tty
