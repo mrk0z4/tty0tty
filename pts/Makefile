@@ -8,6 +8,3 @@ all:
 
 clean:
 	rm -rf tty0tty *.o core
-
-install:
-	cp tty0tty /usr/bin

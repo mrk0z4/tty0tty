@@ -8,4 +8,4 @@ clean:
 	make -C pts clean
 
 install:
-	install -m 755 -p pts/tty0tty /usr/bin
+	install -m 755 -p pts/tty0tty $(DESTDIR)/usr/bin
