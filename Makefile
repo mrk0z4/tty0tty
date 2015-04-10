@@ -14,5 +14,4 @@ install:
 	
 builddeb:
 	cd ..; tar zcf $(PROJECT)_$(VERSION).orig.tar.gz tty0tty
-	cd tty0tty
 	debuild -uc -us
