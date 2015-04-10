@@ -1,6 +1,6 @@
 
 all: clean
-	make -C module default
+#	make -C module default
 	make -C pts all
 
 clean:
