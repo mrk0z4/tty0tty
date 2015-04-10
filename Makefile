@@ -1,3 +1,5 @@
+PROJECT=tty0tty
+VERSION=1.2
 
 all: clean
 #	make -C module default
@@ -12,6 +14,6 @@ install:
 	
 buildeb:
 	cd ..
-	tar zcf tty0tty_1.2.orig.tar.gz tty0tty
+	tar zcf $(PROJECT)_$(VERSION).orig.tar.gz tty0tty
 	cd tty0tty
 	debuild -uc -us
